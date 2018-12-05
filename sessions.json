@@ -332,7 +332,7 @@
         "abstract": "The Executive Security Simulation takes senior security management and IT/business executive teams through an experiential exercise that illuminates key decision points for a successful and secure cloud journey. During this team-based, game-like competitive simulation, participants leverage an industry case study to make strategic security, risk, and compliance time-based decisions and investments. Participants experience the impact of these investments and decisions on the critical aspects of their secure cloud adoption. Join this workshop to gain an understanding of the major success factors to lead security, risk, and compliance in the cloud, and learn applicable decision and investment approaches to specific secure cloud adoption journeys. AWS facilitators translate lessons learned in the simulation into real-life examples and practical advice for your team.",
         "id": "session_90136",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/build-workflows-with-amazon-cloudfront-amazon-route-53-lambdaedge-ctd407r2-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/executive-security-simulation-workshop-wps206-aws-reinvent-2018"
         },
         "session_type": "Workshop",
         "speakers": null,
@@ -1690,7 +1690,7 @@
         "abstract": "This workshop gives attendees an opportunity to develop a solution that can continuously monitor for and detect a realistic threat using Amazon GuardDuty in combination with machine learning-based AWS CloudTrail log analysis in Amazon SageMaker. Attendees learn how to perform serverless analysis of the Amazon CloudWatch Events for GuardDuty findings in AWS Lambda, load them into an ML model in Amazon SageMaker, and produce predictive alerts.",
         "id": "session_90865",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/scalable-automated-anomaly-detection-with-guardduty-cloudtrail-amazon-sagemaker-sec405r1-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/migrate-from-netezza-to-amazon-redshift-best-practices-with-financial-engines-ant377-aws-reinvent-2018"
         },
         "session_type": "Workshop",
         "speakers": null,
@@ -2261,7 +2261,7 @@
         "abstract": "In Hands-On Labs, choose a lab from our catalog, and learn at your own pace as you walk through scenarios step-by-step. Lab topics range in level from introductory to expert and take approximately 30\u201360 minutes to complete. Registration is not required; walk-ups are welcome!",
         "id": "session_92804",
         "media": {
-            "slideshare": "https://www.slideshare.net/OTNSystemsHub/oracle-making-openstack-an-enterprise-grade-solution"
+            "slideshare": "https://www.slideshare.net/xKinAnx/presentation-maximizing-database-performance-performance-tuning-with-db-time"
         },
         "session_type": "Hands-on Lab",
         "speakers": null,
@@ -3373,7 +3373,7 @@
         "abstract": "In this chalk talk, we start with building blocks for reliable event delivery in microservice architectures using DynamoDB and Lambda. We then discuss how to use these building blocks to implement eventually consistent transactional behavior and support for querying using Command Query Responsibility Segregation (CQRS) pattern in serverless microservices. Along the way, we discuss the tradeoffs and benefits of event-driven over request/response designs, and we go into the details of tuning DynamoDB and Lambda-based reliable delivery and processing pipelines for scale, performance, and cost.",
         "id": "session_90814",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/how-oath-a-verizon-company-built-a-multiregion-gdpr-application-with-amazon-dynamodb-dat325-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/migrating-your-nosql-database-to-amazon-dynamodb-dat314-aws-reinvent-2018"
         },
         "session_type": "Chalk Talk",
         "speakers": null,
@@ -4812,7 +4812,7 @@
         "abstract": "Planning to run spiky or unpredictable workloads? Worried that your traffic isn't evenly distributed? In this session, learn how DynamoDB accommodates imbalanced workloads and eliminates throttling, so you can build with confidence. We dive deep into how DynamoDB shards your data, how partitions are managed, and how adaptive capacity simplifies capacity management.",
         "id": "session_90812",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/migrating-your-nosql-database-to-amazon-dynamodb-dat314-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/a-deep-dive-into-whats-new-for-amazon-dynamodb-dat201-aws-reinvent-2018"
         },
         "session_type": "Chalk Talk",
         "speakers": null,
@@ -6883,7 +6883,7 @@
         "abstract": "AWS IoT Analytics collects, processes, and analyzes IoT data so you can gain operational insights. To collect data and prepare it for analysis, you use channels that listen to devices and pull device messages into AWS IoT Analytics. Once messages are flowing, pipelines process and turn them into useful data using transforms and filters. Pipelines enrich your IoT data with data from other AWS services and external data sources. Processed data is stored in an IoT-optimized data store. Once data is ready to be analyzed, data sets are created by querying the data or using built-in Jupyter Notebook templates for sophisticated analytics like machine learning (ML). AWS IoT Analytics integrates with Amazon SageMaker so you can build ML models. In this session, we deep dive on these components.",
         "id": "session_91025",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/build-your-own-log-analytics-solutions-on-aws-ant323r-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/building-iot-analytics-iot327r1-aws-reinvent-2018"
         },
         "session_type": "Chalk Talk",
         "speakers": null,
@@ -10181,6 +10181,7 @@
         "abstract": "Join this session to learn the concepts of AWS Greengrass. You have the opportunity to install, run, and configure an AWS Greengrass core. Then, we show you how to connect a device to AWS IoT and to AWS Greengrass. Learn to provision AWS Greengrass and create various communication scenarios in your account. Also, learn how to route messages to locally connected devices as well as to and from the cloud.",
         "id": "session_91564",
         "media": {
+            "slideshare": "https://fr.slideshare.net/AmazonWebServices/getting-started-with-aws-greengrass-iot215r3-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=1rLxPOxVJoQ"
         },
         "session_type": "Builders Session",
@@ -12520,7 +12521,7 @@
         "abstract": "Amazon EC2 Spot Instances enable you to use spare EC2 computing capacity\u2014 capacity that is often 90% less than On-Demand prices. In this session, learn how to effectively harness Spot Instances for production workloads. We explore application requirements for using Spot Instances, best practices learned from thousands of customers, and the services that make it easy to use. Finally, we run through practical examples of how to use Spot for the most common production workloads, the common pitfalls customers run into, and how to avoid them.",
         "id": "session_22949",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/run-production-workloads-on-spot-save-up-to-90-cmp306r1-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/run-production-workloads-on-spot-save-up-to-90",
             "youtube": "https://www.youtube.com/watch?v=JInfs0Ntx3Y"
         },
         "session_type": "Session",
@@ -12567,7 +12568,7 @@
         "abstract": "The Nitro system is a rich collection of building block technologies that include hardware offload and security components built on AWS. It is powering the next generation of EC2 instances with an ever-broadening selection of compute, storage, memory, and networking options. In this session, we deep dive into the Nitro system, explore its design and architecture, discover how it enables innovative new EC2 instances, and understand how it has made the seemingly impossible, possible.",
         "id": "session_22952",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/humanintheloop-for-machine-learning-aim358r1-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/industrial-iot-connecting-existing-machines-to-tomorrows-iot-ft-deutsche-bahn-iot303r1-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=e8DVmwj3OEs"
         },
         "session_type": "Session",
@@ -12603,7 +12604,7 @@
         "abstract": "Rapid prototyping decreases development cycles to provide mission-focused analysts with cutting-edge solutions quickly.  In this session, learn more about how AWS services support some of the nation\u2019s most critical Department of Defense missions, operating in tactical edge environments with frequently disconnected users that operate in bandwidth disadvantaged environments.",
         "id": "session_90216",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/rapid-prototyping-for-todays-mission-wps304-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/improving-customer-experience-enhanced-customer-insights-using-natural-language-processing-put301i-aws-reinvent-2018"
         },
         "session_type": "Session",
         "speakers": null,
@@ -12710,7 +12711,7 @@
         "abstract": "This is the general what's-new session for Amazon DynamoDB in which we cover newly announced features and provide an end-to-end view of recent innovations. We also share some customer success stories and use cases. Come to this session to learn all about what\u2019s new for DynamoDB.",
         "id": "session_22973",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/migrating-your-nosql-database-to-amazon-dynamodb-dat314-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/a-deep-dive-into-whats-new-for-amazon-dynamodb-dat201-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=eTbBdXJq8ss"
         },
         "session_type": "Session",
@@ -13099,7 +13100,7 @@
         "abstract": "In this session, we outline the five levels of cloud operations automation, providing a clear path and maturity model for achieving security, compliance, and architecture best practices. Using real-world case studies from Fortune 100 enterprises, we demonstrate how secure AWS Landing Zones and policy-based, automated guardrails accelerate the safe migration and ongoing operation of hundreds of enterprise applications, putting your team on the road to DevSecOps maturity. This session is brought to you by AWS partner, Turbot HQ, Inc.",
         "id": "session_89227",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/humanintheloop-for-machine-learning-aim358r1-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/industrial-iot-connecting-existing-machines-to-tomorrows-iot-ft-deutsche-bahn-iot303r1-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=8ZqSyEA69fw"
         },
         "session_type": "Session",
@@ -13458,6 +13459,7 @@
         "abstract": "Amazon Textract enables you to easily extract text and data from virtually any document. Today, companies process millions of documents by manually entering the data or using customized optical character recognition solutions, which are prone to error and consume valuable resources. Join us to learn how Amazon Textract uses machine learning to simplify document processing by enabling fast and accurate text and data extraction so you can process millions of documents in hours.",
         "id": "session_91998",
         "media": {
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/new-launch-introducing-amazon-textract-now-in-preview-aim363-aws-reinvent-2018pdf",
             "youtube": "https://www.youtube.com/watch?v=hagvdqofRU4"
         },
         "session_type": "Session",
@@ -13480,7 +13482,7 @@
         "abstract": "In this demonstration-heavy session, we illustrate our latest techniques, tools, and libraries for developing end-to-end applications with .NET Core. We focus on serverless applications, but the techniques are broadly relevant. We start by showing you some useful features and best practices for authoring your serverless application, including debugging locally from the IDE and in production. From there, we demonstrate some helpful tools that make it easy to set up your CI/CD workflow from the start. Finally, we deploy our application with AWS Lambda.",
         "id": "session_89474",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/presentations/3",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/developing-with-net-core-on-aws-whats-new-dev318r1-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=FteCJQcTDc4"
         },
         "session_type": "Session",
@@ -13752,7 +13754,7 @@
         "abstract": "Increase your organization\u2019s agility by diving deep and discovering how Amazon CloudFront integrates with other services to accelerate your DevOps workflows. In this session, which is jointly presented with Realtor.com, we cover four main areas of DevOps with customer success stories. Build: Programmatically launch and configure your CloudFront distributions by using AWS CloudFormation or Terraform templates as infrastructure as code (IaC). Test: Confirm that your updates deliver the intended result with A/B testing before moving all your traffic by using CloudFront and Lambda@Edge. Release: Continuously manage and deploy your application to the Amazon CloudFront Global Edge Network with AWS CodeStar. Monitor: Uncover actionable insights hiding in your CloudFront logs by leveraging Amazon CloudWatch, Amazon Athena, or AWS Marketplace partners for intelligent monitoring and alerting.",
         "id": "session_22796",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/handson-implementing-active-directory-architectures-on-aws-win309-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/high-velocity-devops-four-ways-to-leverage-cloudfront-in-faster-devops-workflows-ctd409-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=pEd2iGyA1Kc"
         },
         "session_type": "Session",
@@ -14038,7 +14040,7 @@
         "abstract": "In this demonstration-heavy session, we illustrate our latest techniques, tools, and libraries for developing end-to-end applications with .NET Core. We focus on serverless applications, but the techniques are broadly relevant. We start by showing you some useful features and best practices for authoring your serverless application, including debugging locally from the IDE and in production. From there, we demonstrate some helpful tools that make it easy to set up your CI/CD workflow from the start. Finally, we deploy our application with AWS Lambda.",
         "id": "session_89200",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/presentations/3",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/developing-with-net-core-on-aws-whats-new-dev318r1-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=FteCJQcTDc4"
         },
         "session_type": "Session",
@@ -14969,7 +14971,7 @@
         "abstract": "In today's \"always connected\" world, brands must find unique ways to engage customers anywhere, anytime and across an ever-changing variety of formats. Large enterprises are often challenged by aging, monolithic applications that limit their ability to adapt quickly to changes. In this session, the BMW Group discusses how it is using microservices on the AWS Cloud to transform its customer engagement platform. Learn how the company built its Unified Configurator Platform (UCP) to serve 30+ branded customer-facing applications with over 300 RESTful API endpoints using services such as Amazon API Gateway, AWS Lambda, Amazon Elastic Beanstalk, and AWS Elastic Container Service. Additionally, the BMW Group discusses how Game Days and Chaos Monkey methodologies led to the success of the overall program.",
         "id": "session_89092",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/building-bmw-groups-customer-engagement-platform-on-aws-amt305-aws-reinvent-2018"
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/building-bmw-groups-customer-engagement-platform-on-aws-amt305-aws-reinvent-2018-124109572"
         },
         "session_type": "Session",
         "speakers": null,
@@ -15900,7 +15902,7 @@
         "abstract": "Learn best practices for Amazon S3 performance optimization, security, data protection, storage management, and much more. In this session, we look at common Amazon S3 use cases and ways to manage large volumes of data within Amazon S3. We discuss the latest performance improvements and how they impact previous guidance. We also talk about the Amazon S3 data resilience model and how architecture for the AWS Regions and Availability Zones impact architecture for fault tolerance.",
         "id": "session_23173",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/optimizing-costs-in-amazon-s3-creating-cost-efficiencies-w-amazon-s3-storage-classes-introducing-s3-intelligenttiering-stg398r-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/deep-dive-on-amazon-s3-storage-classes-creating-cost-efficiencies-across-your-s3-resources-stg398r1-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=rHeTn9pHNKo"
         },
         "session_type": "Session",
@@ -16393,7 +16395,7 @@
         "abstract": "Amazon Aurora is a fully managed relational database service that combines the speed and availability of high-end commercial databases with the simplicity and cost-effectiveness of open source databases. With Aurora, we've completely reimagined how databases are built for the cloud, providing you higher performance, availability, and durability than previously possible. In this session, we dive deep into the architectural details of Aurora with MySQL compatibility, and we review recent innovations, such as parallel query, backtrack, serverless, and multi-master. We also share best practices for utilizing the power of relational databases at cloud scale.",
         "id": "session_90556",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/whats-new-in-amazon-aurora-dat204r1-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/accelerate-database-development-and-testing-with-amazon-aurora-dat313-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=U42mC_iKSBg"
         },
         "session_type": "Session",
@@ -17539,7 +17541,7 @@
         "abstract": "In this session, learn how Nike Digital migrated their large clusters of Cassandra and Couchbase to a fully managed Amazon DynamoDB. We share how Cassandra and Couchbase proved to be operationally challenging for engineering teams and failed to meet the needs to scale up for high-traffic product launches. We discuss how DynamoDB\u2019s flexible data model allows Nike to focus on innovating for our consumer experiences without managing database clusters. We also share the best practices we learned on how to effectively use DynamoDB\u2019s TTL, Auto Scaling, on-demand backups, point-in-time recovery, and adaptive capacity for applications that require scale, performance, and reliability to meet Nike\u2019s business requirements.",
         "id": "session_90533",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/how-oath-a-verizon-company-built-a-multiregion-gdpr-application-with-amazon-dynamodb-dat325-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/a-deep-dive-into-whats-new-for-amazon-dynamodb-dat201-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=6A1tOFqvgek"
         },
         "session_type": "Session",
@@ -17786,7 +17788,7 @@
         "abstract": "With support for PyTorch 1.0 on Amazon SageMaker, you now have a flexible deep learning framework combined with a fully managed machine learning platform to transition seamlessly from research prototyping to production deployment. In this session, learn how to develop with PyTorch 1.0 within Amazon SageMaker using a novel generative adversarial network (GAN) tutorial. Then, hear from Facebook on how you can use the FAIRSeq modeling toolkit, which serves 6B translations daily for Facebook users, to train your own custom PyTorch models on Amazon SageMaker. Facebook also discusses the evolution of PyTorch 1.0 and features introduced to accelerate research and deployment.",
         "id": "session_91073",
         "media": {
-            "slideshare": "https://www.slideshare.net/AmazonWebServices/build-deep-learning-applications-using-pytorch-and-amazon-sagemaker-aim432r1-aws-reinvent-2018",
+            "slideshare": "https://www.slideshare.net/AmazonWebServices/deep-learning-applications-using-pytorch-featuring-facebook-aim402r-aws-reinvent-2018",
             "youtube": "https://www.youtube.com/watch?v=qc5ZikKw9_w"
         },
         "session_type": "Session",
